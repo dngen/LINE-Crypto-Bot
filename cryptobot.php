@@ -14,7 +14,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			$text = $event['message']['text']; 			// Get text sent
 			$replyToken = $event['replyToken'];			// Get replyToken
-			$text_ex = explode(' ', $text); 			// เอาข้อความมาแยกอาข้อความมาแยก : ได้เป็น Array
+			$text_ex = explode(' ', $text); 			// เอาข้อความมาแยกอาข้อความมาแยก วรรค ได้เป็น Array
 		if($text_ex[0] == "ราคา") {
 			$str = strtoupper($text_ex[1]);
 			$urlx = file_get_contents('https://api.coinmarketcap.com/v1/ticker/?convert=THB');

@@ -9,6 +9,6 @@
 
 
 
-Simple Chat Bot (EchoBot) by NuuNeoI 
+[linkSimple Chat Bot (EchoBot) by NuuNeoI ](https://nuuneoi.com/blog/blog.php?read_id=882)
 # Modified Crypto Bot  by DeEn
  

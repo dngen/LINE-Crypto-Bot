@@ -15,11 +15,11 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text']; 			// Get text sent
 			$replyToken = $event['replyToken'];			// Get replyToken
 			$text_ex = explode(' ', $text); 			// เอาข้อความมาแยกอาข้อความมาแยก วรรค ได้เป็น Array
-		if($text_ex[0] == "ราคา") {
-			$str = strtoupper($text_ex[1]);
-			$urlx = file_get_contents('https://api.coinmarketcap.com/v1/ticker/?convert=THB');
+		if($text_ex[0] == "ราคา") { // ตรวจสอบเงื่อนไขจาก event text  ในวรรคแรก
+			$str = strtoupper($text_ex[1]); // แปลงวรรคให้เป็นอักษรตัวใหญ่
+			$urlx = file_get_contents('https://api.coinmarketcap.com/v1/ticker/?convert=THB'); // ดึงข้อมูล JSON จาก coinmarketcap
 			$jsonx = json_decode($urlx);
-			foreach($jsonx as $item) {
+			foreach($jsonx as $item) { // ค้นหาสกุลเงินตามที่ป้อนมา
 				if($item->symbol ==  $str) {
 					$iname = $item->name;
 					$irank = $item->rank;

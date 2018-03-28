@@ -9,8 +9,8 @@
 
 สามารถแอดบอทมาที่ Line Id: @whv9170b
 
-![Alt text](http://qr-official.line.me/L/FDywinw_ZY.png)
-
+หรือ SCAN QR CODE
+![Image of QRCODE](http://qr-official.line.me/L/FDywinw_ZY.png)
 
 
 [Simple Chat Bot (EchoBot) by NuuNeoI](https://nuuneoi.com/blog/blog.php?read_id=882)

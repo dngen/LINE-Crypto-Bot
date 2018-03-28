@@ -9,11 +9,11 @@
 
 สามารถแอดบอทมาที่ Line Id: @whv9170b
 
-หรือ SCAN QR CODE
-![Crypto Bot by DeEn](http://qr-official.line.me/L/FDywinw_ZY.png)
 
 
+
+
+# Modified Crypto Bot  by DeEn
 
 [Simple Chat Bot (EchoBot) by NuuNeoI](https://nuuneoi.com/blog/blog.php?read_id=882)
-# Modified Crypto Bot  by DeEn
  

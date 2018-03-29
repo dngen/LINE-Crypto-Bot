@@ -30,6 +30,7 @@ if (!is_null($events['events'])) {
 					$c1 = $item->percent_change_1h;
 					$c24 = $item->percent_change_24h;
 					$c7 = $item->percent_change_7d;
+					break;
 					}
 				}
 			$res_tx = "Coin: ".$iname." (".$symb.")\nPosition: ".$irank."\nPrice:\n≈ ".$ibtc." BTC\n≈ ".number_format($iusd, 2)." USD\n≈ ".number_format($ithb, 2)." THB\n---------\nPercent 1h: ".$c1."%\nPercent 24h: ".$c24."%\nPercent 7d: ".$c7."%" ;
